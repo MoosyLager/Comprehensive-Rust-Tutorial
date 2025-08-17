@@ -1,10 +1,12 @@
 fn fib(n: u32) -> u32 {
     if n < 2 {
         // The base case.
-        return todo!("Implement this");
+        return n;
+        // return todo!("Implement this");
     } else {
         // The recursive case.
-        return todo!("Implement this");
+        return fib(n - 1) + fib(n - 2);
+        // return todo!("Implement this");
     }
 }
 
