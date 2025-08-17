@@ -1,6 +1,0 @@
-[package]
-name = "nested_arrays"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
